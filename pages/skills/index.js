@@ -79,7 +79,7 @@ const Skills = () => {
             <div class="progressbar">
               <span class="javascript"></span>
             </div>
-            <h3>PHP</h3>
+            <h3>PYTHON</h3>
             <div class="progressbar">
               <span class="php"></span>
             </div>
