@@ -8,8 +8,9 @@ const HomePage = () => {
 
     return (
         <>
-
+   
             <Aboutpage />
+
             <Skiils/>
 <Projects/>
 <ContactMe/>
