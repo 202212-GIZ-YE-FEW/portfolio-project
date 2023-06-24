@@ -1,5 +1,6 @@
 
 import * as React from "react";
+import SocialLinks from "../socialLinks";
 const Aboutpage = () => {
     return (
         <>
@@ -14,7 +15,7 @@ const Aboutpage = () => {
                             </span> */}
                         </span>
                         <div>
-                            <p>Web Devloper</p>
+                            <p className="animate-pulse text-yellow-400">Web Devloper</p>
                         </div>
                         <span className="md:text-xl sm:text-2xl py-4 font-Rampart">
                             <p>I'm a Web developer who loves responsive design and css.<br></br> Passionate about tech, fast learner and love new challenges.</p>
@@ -26,21 +27,7 @@ const Aboutpage = () => {
 
                 </div>
 
-                <div class="flex flex-col">
-                    <div class="flex items-center mb-4">
-                        <div class="w-2 h-2  mr-2"></div>
-                        GIT
-                        {/* <FontAwesomeIcon icon="fa-brands fa-github" /> */}
-                    </div>
-                    <div class="flex items-center mb-4">
-                        <div class="w-2 h-2  mr-2"></div>
-                        <p class="text-gray-700">Mail</p>
-                    </div>
-                    <div class="flex items-center mb-4">
-                        <div class="w-2 h-2  mr-2"></div>
-                        <p class="text-gray-700">TW</p>
-                    </div>
-                </div>
+               <SocialLinks/>
 
             </div>
 
