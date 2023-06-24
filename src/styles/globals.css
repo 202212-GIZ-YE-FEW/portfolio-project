@@ -27,3 +27,627 @@ body {
 background-color:#f4f3f2ee;
 margin:40px;
 }
+
+/* ---------------------- social-links: */
+
+.social-links,.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-btn {
+  cursor: pointer;
+  height: 50px;
+  width: 50px;
+  font-family: 'Titillium Web', sans-serif;
+  color: #333;
+  border-radius: 10px;
+  box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
+  background: white;
+  margin: 5px;
+  transition: 0.3s;
+  justify-content: center;
+}
+
+.social-btn svg {
+  height: 24px;
+  width: 24px;
+}
+
+.social-btn span {
+  width: 0px;
+  overflow: hidden;
+  transition: 0.3s;
+  text-align: center;
+  margin-left: 5px;
+}
+
+.social-btn:hover {
+  width: 150px;
+  border-radius: 5px;
+}
+
+.social-btn:hover span {
+  padding: 2px;
+  width: 80px;
+}
+
+#telegram svg {
+  fill: #2CA0D9;
+}
+
+#linkedin svg {
+  fill: #0e76a8;
+}
+
+#github {
+  fill: #333;
+}
+
+/* ---------------------- social-links: */
+
+
+
+.container {
+  max-width: 1170px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  
+  svg {
+    margin: 35px;
+    width: 17.5rem;
+    height: 17.5rem;
+  }
+}
+
+.teste {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo-react {
+  fill: transparent;
+  animation: logo-react 6s ease infinite alternate;
+  
+  .path-react {
+    fill: transparent;
+    animation: path-react 7s ease-in-out infinite alternate;
+  }
+}
+
+@keyframes path-react {
+    0% {
+    fill: #61DAFB;
+  }
+  25% {
+    fill: transparent;
+  }
+  60% {
+     fill: #61DAFB;
+  }
+  100% {
+    fill: #61DAFB;
+   
+  }
+}
+
+@keyframes logo-react {
+  0% {
+    stroke-width: 0;
+    stroke-dasharray: 0 100;
+    stroke-dashoffset: 100;
+  }
+  25% {
+    stroke-width: 15;
+    stroke-dasharray: 100 0;
+    stroke-dashoffset: 150;
+  }
+  35% {
+    stroke-width: 15;
+    stroke-dasharray: 150 0;
+    stroke-dashoffset: 150;
+  }
+  
+  50% {
+    stroke-width: 15;
+    stroke-dasharray: 200 0;
+    stroke-dashoffset: 200;
+  }
+  60% {
+    stroke-dasharray: 0 200;
+    stroke-dashoffset: 200;
+  }
+  85% {
+    stroke-width: 0;
+    stroke-dasharray: 350 0;
+    stroke-dashoffset: 350;
+  }
+  100% {
+    stroke-dasharray: 450 0;
+    stroke-dashoffset: 450;
+    stroke-width: 0.3;
+  }
+}
+
+.logo-javascript {
+  fill: transparent;
+  animation: logo-javascript 6s ease infinite alternate;
+  
+  .path-javascript {
+    fill: transparent;
+    animation: path-javascript 4500ms ease-in-out infinite alternate;
+  }
+}
+
+@keyframes path-javascript {
+    0% {
+    fill: #222;
+  }
+  25% {
+    fill: transparent;
+  }
+  60% {
+     fill: #333;
+  }
+  100% {
+    fill: #252525;
+  }
+}
+
+@keyframes logo-javascript {
+  0% {
+    stroke-dasharray: 0 75;
+    stroke-dashoffset: 75;
+    fill: transparent;
+  }
+  25% {
+    stroke-dasharray: 75 0;
+    stroke-dashoffset: 75;
+    fill: transparent;
+  }
+  35% {
+    stroke-dasharray: 100 0;
+    stroke-dashoffset: 100;
+  }
+  
+  50% {
+    stroke-dasharray: 150 0;
+    stroke-dashoffset: 150;
+  }
+  60% {
+   fill: transparent;
+    stroke-dasharray: 0 150;
+    stroke-dashoffset: 150;
+  }
+  85% {
+   
+    stroke-dasharray: 250 0;
+    stroke-dashoffset: 250;
+  }
+  100% {
+    stroke-dasharray: 0 300;
+    stroke-dashoffset: 300;
+    fill: transparent;
+  }
+}
+
+.logo-nextjs {
+  fill: transparent;
+  animation: logo-nextjs 6s ease infinite alternate;
+  
+  .path-nextjs {
+    fill: transparent;
+    animation: path-nextjs 4500ms ease-in-out infinite alternate;
+  }
+}
+
+@keyframes path-nextjs {
+    0% {
+    fill: #f4f4f4;
+  }
+  25% {
+    fill: transparent;
+  }
+  60% {
+     fill: #d4d4d4;
+  }
+  100% {
+    fill: #fff;
+  }
+}
+
+@keyframes logo-nextjs {
+  0% {
+    stroke-width: 0;
+    stroke-dasharray: 0 50;
+    stroke-dashoffset: 50;
+  }
+  25% {
+    stroke-width: 15;
+    stroke-dasharray: 50 0;
+    stroke-dashoffset: 50;
+  }
+  35% {
+    stroke-width: 15;
+    stroke-dasharray: 100 0;
+    stroke-dashoffset: 100;
+  }
+  
+  50% {
+    stroke-width: 15;
+    stroke-dasharray: 150 0;
+    stroke-dashoffset: 150;
+  }
+  60% {
+    stroke-dasharray: 0 200;
+    stroke-dashoffset: 200;
+  }
+  85% {
+    stroke-width: 0;
+    stroke-dasharray: 350 0;
+    stroke-dashoffset: 350;
+  }
+  100% {
+    stroke-dasharray: 450 0;
+    stroke-dashoffset: 450;
+    stroke-width: 0.3;
+  }
+}
+
+.logo-sass {
+  fill: transparent;
+  animation: logo-sass 4500ms ease infinite alternate;
+}
+
+@keyframes logo-sass {
+  0% {
+    stroke-width: 0;
+    stroke-dasharray: 0 100;
+    stroke-dashoffset: 100;
+ 
+  }
+  25% {
+    stroke-width: 15;
+    stroke-dasharray: 100 0;
+    stroke-dashoffset: 150;
+  }
+  35% {
+    stroke-width: 15;
+    stroke-dasharray: 150 0;
+    stroke-dashoffset: 150;
+  }
+  
+  50% {
+    stroke-width: 15;
+    stroke-dasharray: 200 0;
+    stroke-dashoffset: 200;
+  }
+  
+  60% {
+    stroke-dasharray: 0 200;
+    stroke-dashoffset: 200;
+  }
+  
+  85% {
+    stroke-width: 0;
+    stroke-dasharray: 350 0;
+    stroke-dashoffset: 350;
+  }
+  
+  100% {
+    stroke-dasharray: 250 0;
+    stroke-dashoffset: 250;
+    stroke-width: 0.3;
+  }
+}
+
+.logo-styled-components {
+  fill: transparent;
+  animation: logo-styled-components 6s ease infinite alternate;
+  
+  .path-styled-components {
+    fill: transparent;
+    animation: path-styled-components 7s ease-in-out infinite alternate;
+  }
+}
+
+@keyframes path-styled-components {
+    0% {
+    fill: #1a1a1a;
+  }
+  25% {
+    fill: transparent;
+  }
+  50% {
+    fill: #333;
+  }
+  60% {
+     fill: #ddd;
+  }
+  100% {
+    fill: #fff;
+  }
+}
+
+@keyframes logo-styled-components {
+  0% {
+    stroke-width: 0;
+    stroke-dasharray: 0 100;
+    stroke-dashoffset: 100;
+  }
+  25% {
+    stroke-width: 25;
+    stroke-dasharray: 100 0;
+    stroke-dashoffset: 150;
+  }
+  35% {
+    stroke-width: 15;
+    stroke-dasharray: 150 0;
+    stroke-dashoffset: 150;
+  }
+  
+  50% {
+    stroke-width: 35;
+    stroke-dasharray: 200 0;
+    stroke-dashoffset: 200;
+  }
+  60% {
+    stroke-dasharray: 0 200;
+    stroke-dashoffset: 200;
+  }
+  85% {
+    stroke-width: 0;
+    stroke-dasharray: 350 0;
+    stroke-dashoffset: 350;
+  }
+  100% {
+    stroke-dasharray: 450 0;
+    stroke-dashoffset: 450;
+    stroke-width: 0.3;
+  }
+}
+
+.logo-storybook {
+  fill: transparent;
+  animation: logo-storybook 6s ease infinite alternate;
+  
+  .path-storybook {
+    fill: transparent;
+    animation: path-storybook 4s ease-in-out infinite alternate;
+  }
+}
+
+@keyframes path-storybook {
+    0% {
+    fill: #f4f4f4;
+  }
+  25% {
+    fill: transparent;
+  }
+  60% {
+     fill: #d4d4d4;
+  }
+  100% {
+    fill: #fff;
+  }
+}
+
+@keyframes logo-storybook {
+  0% {
+    stroke-width: 0;
+    stroke-dasharray: 0 200;
+    stroke-dashoffset: 200;
+  }
+  25% {
+    stroke-width: 15;
+    stroke-dasharray: 200 0;
+    stroke-dashoffset: 200;
+  }
+  35% {
+    stroke-width: 15;
+    stroke-dasharray: 250 0;
+    stroke-dashoffset: 250;
+  }
+  
+  50% {
+    stroke-width: 15;
+    stroke-dasharray: 250 0;
+    stroke-dashoffset: 250;
+  }
+  60% {
+    stroke-dasharray: 0 350;
+    stroke-dashoffset: 350;
+  }
+  85% {
+    stroke-width: 0;
+    stroke-dasharray: 450 0;
+    stroke-dashoffset: 450;
+  }
+  100% {
+    stroke-dasharray: 500 0;
+    stroke-dashoffset: 500;
+    stroke-width: 0.3;
+  }
+}
+
+.logo-framer-motion {
+  fill: transparent;
+  animation: logo-framer-motion 6s ease infinite alternate;
+  
+  .path-framer-motion {
+    fill: transparent;
+    animation: path-framer-motion 4500ms ease-in infinite alternate;
+  }
+}
+
+@keyframes path-framer-motion {
+    0% {
+    fill: #222;
+      filter: blur(0);
+  }
+  25% {
+    fill: transparent;
+    filter: blur(1px);
+  }
+  45% {
+    fill: #333;
+    filter: blur(1px);
+  }
+  60% {
+    fill: #333;
+    filter: blur(0);
+  }
+  100% {
+    fill: #1a1a1a;
+    filter: blur(0);
+  }
+}
+
+@keyframes logo-framer-motion {
+  0% {
+    stroke-width: 0;
+    stroke-dasharray: 0 100;
+    stroke-dashoffset: 100;
+  }
+  25% {
+    stroke-dasharray: 125 0;
+    stroke-dashoffset: 125;
+  }
+  35% {
+    stroke-dasharray: 150 0;
+    stroke-dashoffset: 150;
+  }
+  
+  50% {
+    stroke-dasharray: 200 0;
+    stroke-dashoffset: 200;
+  }
+  60% {
+    stroke-dasharray: 0 200;
+    stroke-dashoffset: 200;
+  }
+  85% {
+    stroke-width: 0;
+    stroke-dasharray: 350 0;
+    stroke-dashoffset: 350;
+  }
+  100% {
+    stroke-dasharray: 450 0;
+    stroke-dashoffset: 450;
+    stroke-width: 0.3;
+  }
+}
+
+
+.logo-figma {
+  fill: transparent;
+  animation: logo-figma 1s ease-out infinite alternate;
+}
+
+@keyframes logo-figma {
+  0% {
+   transform: scale(1);
+    stroke-dasharray: 100 0;
+    stroke-dashoffset: 100;
+  }
+  100% {
+    stroke-dasharray: 0 100;
+    stroke-dashoffset: 0;
+    transform: scale(1.05) rotate(15deg);
+  }
+}
+
+.logo-css {
+  fill: transparent;
+  animation: logo-css 6s ease infinite alternate;
+  
+  .path-css {
+    fill: transparent;
+    animation: path-css 7s ease-in-out infinite alternate;
+  }
+}
+
+@keyframes path-css {
+    0% {
+    fill: #f4f4f4;
+  }
+  25% {
+    fill: transparent;
+  }
+  60% {
+     fill: #ddd;
+  }
+  100% {
+    fill: #fff;
+  }
+}
+
+.logo-typescript {
+  fill: transparent;
+  animation: logo-typescript 6s ease infinite alternate;
+  
+  .path-typescript {
+    fill: transparent;
+    animation: path-typescript 7s ease-in-out infinite alternate;
+  }
+}
+
+@keyframes path-typescript {
+    0% {
+    fill: #f4f4f4;
+  }
+  25% {
+    fill: transparent;
+  }
+  60% {
+     fill: #ddd;
+  }
+  100% {
+    fill: #fff;
+  }
+}
+
+@keyframes logo-typescript {
+  0% {
+    stroke-width: 3;
+    stroke-dasharray: 0 100;
+    stroke-dashoffset: 100;
+  }
+  25% {
+    stroke-width: 15;
+    stroke-dasharray: 100 0;
+    stroke-dashoffset: 150;
+  }
+  35% {
+    stroke-width: 15;
+    stroke-dasharray: 150 0;
+    stroke-dashoffset: 150;
+  }
+  
+  50% {
+    stroke-width: 60;
+    stroke-dasharray: 200 0;
+    stroke-dashoffset: 200;
+  }
+  60% {
+    stroke-dasharray: 0 200;
+    stroke-dashoffset: 200;
+    stroke-width: 45;
+  }
+  85% {
+    stroke-width: 25;
+    stroke-dasharray: 350 0;
+    stroke-dashoffset: 350;
+  }
+  100% {
+    stroke-dasharray: 450 0;
+    stroke-dashoffset: 450;
+    stroke-width: 0;
+  }
+}
