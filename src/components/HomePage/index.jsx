@@ -1,6 +1,6 @@
 
 import React from "react"
-import Aboutpage from "@/src/components/aboutPage";
+import Aboutpage from "@/src/components/AboutPage";
 import Projects from "@/src/components/Projects";
 import Skiils from "../Skills";
 import ContactMe from "../ContactMe";
