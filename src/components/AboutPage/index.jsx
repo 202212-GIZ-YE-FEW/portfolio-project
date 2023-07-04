@@ -1,6 +1,7 @@
 
 import * as React from "react";
 import SocialLinks from "../socialLinks";
+import CV from "../CvButton";
 const Aboutpage = () => {
     return (
         <>
@@ -16,6 +17,7 @@ const Aboutpage = () => {
                         </span>
                         <div>
                             <p className="animate-pulse text-yellow-400">Web Devloper</p>
+                         
                         </div>
                         <span className="md:text-xl sm:text-2xl py-4 font-Rampart">
                             <p>I'm a Web developer who loves responsive design and css.<br></br> Passionate about tech, fast learner and love new challenges.</p>
@@ -26,9 +28,9 @@ const Aboutpage = () => {
                     </div>
 
                 </div>
-
+ {/* <CV/> */}
                <SocialLinks/>
-
+  
             </div>
 
         </>

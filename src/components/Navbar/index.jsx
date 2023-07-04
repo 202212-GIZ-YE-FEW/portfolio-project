@@ -1,7 +1,9 @@
 
 import React from "react"
+import Link from "next/link";
+import CV from "../CvButton";
 const Navbar = () => {
-
+ 
   return (
     <>
       {/* <header class="text-gray-700 body-font m-10">
@@ -28,15 +30,27 @@ const Navbar = () => {
                 {/* <img class="cursor-pointer" src="https://picsum.photos/seed/picsum/200/200" alt="logo" width="30px" height="20px"/> */}
                 <span className="animate-bounce"> 👩‍💻</span>
                 <span class="ml-3 text-xl cursor-pointer">RAWAN<br />SALEM<strong class="logo-color">.B</strong></span>
+                
               </a>
+              
               <div class="flex">
-                <a href="#home" class="text-white-700 hover:bg-yellow-400 px-3 py-2 rounded-md text-lg font-medium">Home</a>
-                <a href="#projects" class="text-white-700 hover:bg-yellow-400 px-3 py-2 rounded-md text-lg font-medium">Projects</a>
-                <a href="#contact" class="text-white-700 hover:bg-yellow-400 px-3 py-2 rounded-md text-lg font-medium">Contact</a>
+                <a href="/" class="text-white-700 hover:bg-yellow-400 px-3 py-2 rounded-md text-lg font-medium">Home</a>
+                {/* <a href="#projects" class="text-white-700 hover:bg-yellow-400 px-3 py-2 rounded-md text-lg font-medium">Projects</a> */}
+                <Link href='/projects' className='text-white-700 hover:bg-yellow-400 px-3 py-2 rounded-md text-lg font-medium'
+                            >
+                              Projects
+                            </Link>
+                <a href="/#contact" class="text-white-700 hover:bg-yellow-400 px-3 py-2 rounded-md text-lg font-medium">Contact</a>
+               <div class="cv-flex-center"> <CV/></div>
               </div>
+
             </div>
           </div>
+          
         </nav>
+       
+
+     
       </div>
     </>
   )
