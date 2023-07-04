@@ -85,6 +85,15 @@ margin:40px;
   fill: #333;
 }
 
+.telegram-text{
+  color: #2CA0D9;
+}
+.linkedin-text{
+  color: #0e76a8;
+}
+.github-text{
+  color: #333;
+}
 /* ---------------------- social-links: */
 
 
@@ -651,3 +660,226 @@ margin:40px;
     stroke-width: 0;
   }
 }
+/* //------------------------------------------------- CV*/
+
+.cv-flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+}
+.download-button {
+  position: relative;
+  border-width: 0;
+  color: white;
+  font-size: 15px;
+  font-weight: 600;
+  border-radius: 4px;
+  z-index: 1;
+ }
+ 
+ .download-button .docs {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  min-height: 40px;
+  padding: 0 10px;
+  border-radius: 4px;
+  z-index: 1;
+  background-color: #242a35;
+  border: solid 1px #e8e8e82d;
+  transition: all .5s cubic-bezier(0.77, 0, 0.175, 1);
+ }
+ 
+ .download-button:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+ }
+ 
+ .download {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 90%;
+  margin: 0 auto;
+  z-index: -1;
+  border-radius: 4px;
+  transform: translateY(0%);
+  background-color: #f7e34e;
+  border: solid 1px #a548c92d;
+  transition: all .5s cubic-bezier(0.77, 0, 0.175, 1);
+ }
+ 
+ .download-button:hover .download {
+  transform: translateY(100%)
+ }
+ 
+ .download svg polyline,.download svg line {
+  animation: docs 1s infinite;
+ }
+ 
+ @keyframes docs {
+  0% {
+   transform: translateY(0%);
+  }
+ 
+  50% {
+   transform: translateY(-15%);
+  }
+ 
+  100% {
+   transform: translateY(0%);
+  }
+ }
+
+ /* //----------------------------------------------------- CV */
+
+/* //--------------------------------------------------- Projects */
+ /* .card {
+  --font-color: #323232;
+  --bg-color: #e0e0e0;
+  width: 250px;
+  height: 350px;
+  border-radius: 20px;
+  background: #f4f3f2ee;
+  box-shadow: -9px 9px 18px #bab6b6,
+              9px -9px 18px #ffffff;
+  display: flex;
+  flex-direction: column;
+  transition: .4s;
+  position: relative;
+}
+
+.card:hover {
+  transform: scale(1.02);
+  box-shadow: 0px 0px 10px 2px #5a5a5a;
+
+}
+
+.card img {
+ 
+  object-fit: cover;
+  border-radius: 20px 20px 0 0;
+
+}
+
+.card__descr-wrapper {
+  padding: 15px;
+  display: grid;
+}
+
+
+.card__descr {
+  color: var(--font-color);
+ 
+}
+
+.svg {
+  width: 25px;
+  height: 25px;
+  transform: translateY(25%);
+  fill: var(--font-color);
+}
+
+.card__links {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-self: flex-end;
+}
+
+.card__links .link {
+  color: var(--font-color);
+  font-weight: 600;
+  font-size: 15px;
+  text-decoration: none;
+}
+
+.card__links .link:hover {
+  text-decoration: underline;
+
+} */
+
+
+/* //---------------------------------------------------------- Projects */
+
+.card {
+  height: 254px;
+  width: 190px;
+  position: relative;
+  transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  border-radius: 16px;
+  box-shadow: 0 0 20px 8px #d0d0d0;
+  overflow: hidden;
+}
+
+ /*Image*/
+.card-image {
+  /* height: 100%;
+  width: 100%; */
+  position: absolute;
+  transition: all 1s cubic-bezier(0.645, 0.045, 0.355, 1);
+  /* background: #0a3394;
+  background: linear-gradient(to top, #0a3394, #4286f4); */
+}
+
+/*Description */
+.card-description {
+  display: flex;
+  position: absolute;
+  gap: .5em;
+  flex-direction: column;
+  background-color: #e9d7d7;
+  color: #212121;
+  height: 70%;
+  bottom: 0;
+  border-radius: 16px;
+  transition: all 1s cubic-bezier(0.645, 0.045, 0.355, 1);
+  padding: 1rem;
+}
+
+/*Text*/
+.text-title {
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+
+.text-body {
+  font-size: 1rem;
+  line-height: 130%;
+}
+
+
+/* Hover states */
+.card:hover .card-description {
+  transform: translateY(100%);
+}
+
+
+.svg {
+  width: 25px;
+  height: 25px;
+  transform: translateY(25%);
+  fill: var(--font-color);
+}
+
+.card__links {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-self: flex-end;
+}
+
+.card__links .link {
+  color: var(--font-color);
+  font-weight: 600;
+  font-size: 15px;
+  text-decoration: none;
+}
+
+.card__links .link:hover {
+  text-decoration: underline;
+
+} 
