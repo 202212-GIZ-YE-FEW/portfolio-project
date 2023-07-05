@@ -8,8 +8,13 @@ const Aboutpage = () => {
             <div className="text-black dark:text-white h-1/2  py-20 flex font-Rampart">
                 <div class="container mx-auto px-4 grid md:grid-cols-2 md:gap-16 sm:grid-cols-1 sm:gap-10  ">
                     <div class="flex flex-wrap flex-col ">
+                        <div class="loader">
+                            <div class="scanner">
+                                <span>WELCOME ........ </span>
+                            </div>
+                        </div>
                         <span className="md:text-5xl sm:text-2xl py-4 font-Rampart">
-                            Hello,<br></br>
+                            {/* Hello,<br></br> */}
                             My name is RAWAN.
                             {/* <span className="animate-waving-hand text-5xl p-7 text-center">
                                 👋
@@ -17,7 +22,7 @@ const Aboutpage = () => {
                         </span>
                         <div>
                             <p className="animate-pulse text-yellow-400">Web Devloper</p>
-                         
+
                         </div>
                         <span className="md:text-xl sm:text-2xl py-4 font-Rampart">
                             <p>I'm a Web developer who loves responsive design and css.<br></br> Passionate about tech, fast learner and love new challenges.</p>
@@ -28,9 +33,9 @@ const Aboutpage = () => {
                     </div>
 
                 </div>
- {/* <CV/> */}
-               <SocialLinks/>
-  
+                {/* <CV/> */}
+                <SocialLinks />
+
             </div>
 
         </>
