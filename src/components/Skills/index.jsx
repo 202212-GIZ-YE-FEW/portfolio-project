@@ -7,7 +7,7 @@ const Skiils = () => {
 
   return (
     <>
-  
+  <h1 className="text-center animate-pulse text-yellow-500 m-20 font-Rubik text-4xl">Skiils</h1>
 
    {/* //----------------------------------------------------------------------------------------------------------- */}
    <div class="container">
@@ -101,7 +101,7 @@ d="M161.166 74.0008C165.749 74.0008 169.808 74.268 173.349 74.8023C176.69
 </defs> */}
 </svg>
 {/* //------------------------ */}
-  <div >
+  <div className="animate-pulse">
 <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
  width="140" height="200" viewBox="0 0 225.000000 225.000000"
  preserveAspectRatio="xMidYMid meet">

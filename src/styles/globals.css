@@ -806,32 +806,35 @@ margin:40px;
 /* //---------------------------------------------------------- Projects */
 
 .card {
-  height: 254px;
-  width: 190px;
+  height: 335px;
+  width: 250px;
   position: relative;
   transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
   border-radius: 16px;
   box-shadow: 0 0 20px 8px #d0d0d0;
   overflow: hidden;
+
 }
 
- /*Image*/
-.card-image {
-  /* height: 100%;
-  width: 100%; */
-  position: absolute;
-  transition: all 1s cubic-bezier(0.645, 0.045, 0.355, 1);
-  /* background: #0a3394;
-  background: linear-gradient(to top, #0a3394, #4286f4); */
+#movie-mad{
+  background-color: rgb(11, 11, 38);
+  color: white;
 }
 
+#movie-mad .svg{
+  fill: white;
+}
+
+#Pebble{
+  background-color: white;
+}
 /*Description */
 .card-description {
   display: flex;
   position: absolute;
   gap: .5em;
   flex-direction: column;
-  background-color: #e9d7d7;
+  background-color: #f5f5f5;
   color: #212121;
   height: 70%;
   bottom: 0;
@@ -857,19 +860,20 @@ margin:40px;
   transform: translateY(100%);
 }
 
-
 .svg {
   width: 25px;
   height: 25px;
   transform: translateY(25%);
-  fill: var(--font-color);
+  /* fill: var(--font-color); */
+
 }
 
 .card__links {
-  margin-top: 10px;
+  margin: 10px;
   display: flex;
-  justify-content: space-between;
-  align-self: flex-end;
+  justify-content: center;
+  /* align-self: flex-end;
+  position: absolute; */
 }
 
 .card__links .link {
@@ -883,3 +887,51 @@ margin:40px;
   text-decoration: underline;
 
 } 
+
+/* //---------------------------------------------------------- Projects */
+/* //------------------------------------------------------------------------ WELCOME */
+.scanner span {
+  color: transparent;
+  font-size: 50px;
+  position: relative;
+  overflow: hidden;
+}
+
+.scanner span::before {
+  content: "WELCOME 🤞";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  border-right: 4px solid #ecc92e;
+  overflow: hidden;
+  color: #ecc92e;
+  animation: load91371 6s linear infinite;
+  font-size: 50px;
+}
+
+@keyframes load91371 {
+  0%, 10%, 100% {
+    width: 0;
+  }
+
+  10%,20%,30%,40%,50%,60%,70%,80%,90%,100% {
+    border-right-color: transparent;
+  }
+
+  11%,21%,31%,41%,51%,61%,71%,81%,91% {
+    border-right-color:#ecc92e;
+  }
+
+  60%, 80% {
+    width: 100%;
+  }
+}
+/* 
+//------------------------------------------------------------------------ WELCOME */
+
+
+
+
+

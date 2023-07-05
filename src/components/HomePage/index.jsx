@@ -9,9 +9,9 @@ const HomePage = () => {
     return (
         <>
             <Aboutpage />
-            {/* <Skiils /> */}
+            <Skiils />
             <Projects />
-            {/* <ContactMe /> */}
+            <ContactMe />
         </>
     )
 }
