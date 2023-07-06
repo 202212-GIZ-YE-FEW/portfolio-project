@@ -1,7 +1,13 @@
 
 import React from "react"
-const Projects = () => {
+import { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
+const Projects = () => {
+  useEffect(() => {
+    AOS.init();
+}, []);
   return (
     <>
 
@@ -88,8 +94,8 @@ const Projects = () => {
 {/* //--------------------------------------------------------------------------------- */}
 
 
-<h1 className="text-center animate-pulse text-yellow-500 m-20 font-Rubik text-4xl">Projects</h1>
-<div className="flex ml-20">
+<h1 className="text-center animate-pulse text-yellow-500 m-20 font-Rubik text-4xl" data-aos="fade-right">Projects</h1>
+<div className="flex ml-20"  data-aos='fade-up' data-aos-duration="3000">
 <div id="Pebble" class="card">
 
 <img  src="/images/pobbleworkproject.PNG" alt="pobblework" />

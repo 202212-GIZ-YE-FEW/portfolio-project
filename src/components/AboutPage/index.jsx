@@ -25,7 +25,8 @@ const Aboutpage = () => {
 
                         </div>
                         <span className="md:text-xl sm:text-2xl py-4 font-Rampart">
-                            <p>I'm a Web developer who loves responsive design and css.<br></br> Passionate about tech, fast learner and love new challenges.</p>
+                            {/* <p>I'm a Web developer who loves responsive design and css.<br></br> Passionate about tech, fast learner and love new challenges.</p> */}
+                            <p>Web developer experienced in using various web development <br></br>tools and frameworks.I am passionate about staying up-to-date<br></br> with the latest trends and technologies in web development<br></br> to deliver high-quality solutions to clients.</p>
                         </span>
                     </div>
                     <div>
@@ -33,7 +34,6 @@ const Aboutpage = () => {
                     </div>
 
                 </div>
-                {/* <CV/> */}
                 <SocialLinks />
 
             </div>
