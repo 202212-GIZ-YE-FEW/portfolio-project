@@ -2,6 +2,7 @@
 import React from "react"
 import Link from "next/link";
 import CV from "../CvButton";
+// import { HashLink as Linkt } from "react-router-hash-link";
 const Navbar = () => {
  
   return (
