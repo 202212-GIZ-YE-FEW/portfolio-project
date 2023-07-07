@@ -170,7 +170,7 @@ const Projects = () => {
 
 
   <div class="card-description">
-    <p class="text-title">MAD LIBSt</p>
+    <p class="text-title">MAD LIBS</p>
     <p class="text-body">Interactive game where players fill in the blanks of a story to create hilarious and  nonsensical results.</p>
     <div>
     <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">#HTML</span>
