@@ -31,7 +31,7 @@ const Aboutpage = () => {
                     </div>
                     <div>
                         <img src="https://media4.giphy.com/media/hpXdHPfFI5wTABdDx9/giphy.gif?cid=ecf05e47ktbynzqdbinfa2jtzmat77nqz1g713cvfzsazywf&ep=v1_gifs_related&rid=giphy.gif&ct=g" alt="profile-pic" class="rounded-full" data-aos="fade-up"
-     data-aos-anchor-placement="top-bottom" data-aos-duration="2000" />
+                            data-aos-anchor-placement="top-bottom" data-aos-duration="2000" />
                     </div>
 
                 </div>
