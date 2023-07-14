@@ -1,53 +1,38 @@
-# Guide to Creating Your Portfolio Website with React
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-A portfolio website is a powerful tool that can help you showcase your skills, projects, and achievements to potential employers or clients. By creating a portfolio website with React, you can take advantage of the benefits of using a modern and popular JavaScript library to create a dynamic and responsive website that stands out from the competition.
+## Getting Started
 
-Here are some benefits of creating a portfolio website with React:
+First, run the development server:
 
-- **Increased visibility**: According to a survey by CareerBuilder, 70% of employers use social media to screen job candidates, and having a portfolio website can help you stand out and make a positive impression.
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+```
 
-- **Better user experience**: React allows you to create fast and responsive websites that provide a better user experience for visitors. In addition to that, it will show case your abilities to potential employers.
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-- **Improved job prospects**: According to a study by LinkedIn, having a well-designed and professional portfolio website can help you increase your chances of getting hired by up to 50%.
+You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
 
-- **Showcasing your skills**: A portfolio website allows you to showcase your skills and projects in a way that a traditional resume or cover letter cannot.
+[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
 
-- **Demonstrating your creativity**: By designing and building your own portfolio website, you can demonstrate your creativity and passion for web development.
+The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
 
-By following the steps and tips in this guide, you can create a portfolio website with React that includes links to your social media, and takes advantage of the benefits listed above.
+This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-## Examples
-These are some examples of portfolios from previous bootcamps:
-- [Hiba Machfej](https://hibamachfej.netlify.app/)
-- [Jennet Hydyrova](https://jennethydyrova-portfolio.netlify.app/)
-- [Ibrahim aljarad](https://ibrahimaljarad.netlify.app/)
-- [Fadime Ozdemir](https://fadimeozdemir.netlify.app/)
-- [Tarkan Mansuroglu](https://www.tarkanmansuroglu.com/)
+## Learn More
 
-## Steps
+To learn more about Next.js, take a look at the following resources:
 
-Follow these steps to create your portfolio website with React:
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-1. **Choose a CSS framework**: Choose a CSS framework like Bootstrap, Material-UI, or Tailwind CSS to style your website. You can also choose to write your own CSS if you prefer.
-2. **BONUS - Design your website**: This is not that important if you can't do it, but its gonna be great if you can think about the layout, color scheme, and overall design of your website. Consider using a design tool like Figma or Sketch to create a mockup of your website before you start coding. It will be easier for you to prepare the design before actually building it. This [link](https://www.figma.com/community/search?resource_type=mixed&sort_by=relevancy&query=portfolio&editor_type=all) can show you many projects to get inspirations from.
-3. **Set up your React project**: Use create-react-app or another tool to set up your React project.
-4. **Create your components**: Create React components for each section of your website, such as the header, footer, and project section.
-5. **Style your components**: Use your chosen CSS framework or write your own CSS to style your React components.
-6. **Add your projects and achievements**: Showcase the projects we worked on the bootcamp and any previous projects and achievements on your portfolio website. Include descriptions, images, and links to your work. All the projects should be accessible as well.
-7. **Add your contact information**: You should add your contact information like your Github account and Linkedin accounts to the page. This should, obviously, be visible to anyone and should be accessible too. This is important so potential employers can be able to reach out to you.
-8. **Add a downloadable version of your CV**: Employers should also be able to download your CV in case they want to get to know more about you or they want to email your CV to their HR department for example.
-9. **Publish your website**: Once you've completed your website, deploy your website to Github pages by following this [guide](https://blog.logrocket.com/deploying-react-apps-github-pages/)
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-## Tips
+## Deploy on Vercel
 
-Here are some tips to make your portfolio website stand out:
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-- Keep it simple and easy to navigate
-- Use high-quality images and graphics
-- Use a consistent color scheme and typography
-- Highlight your best projects and achievements
-- Include a [call-to-action](https://www.sba.gov/blog/what-call-action-why-do-you-need-one-your-website) to encourage visitors to contact you
-
-## Conclusion
-
-Creating a portfolio website can be a great way to showcase your skills and
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
